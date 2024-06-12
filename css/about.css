@@ -1,0 +1,29 @@
+.tit{
+  
+   margin-top: -70px;
+    position: absolute;
+  
+   
+}
+.tit h2{
+    position: absolute;
+       animation: colored 3s infinite;
+       border: 1px solid transparent;
+       border-radius: 0px 3px 15px 0px;
+       width: 350px;
+       font-size: 30px;
+}
+.tit h2 span{
+    float: right;
+    margin-right: 10px;
+}
+@keyframes colored{
+    0%{
+         color: #000;
+         background-color: #eee;
+ }
+     50%{
+         color: #eee;
+         background-color: #000;
+     }
+}
